@@ -1,0 +1,94 @@
+/* Body Styles */
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00154F;
+}
+  
+.navli {
+  float: left;
+}
+  
+.navli a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+  
+.navli a:hover {
+  background-color: #F95B0F;
+}
+
+.active {
+  background-color: #F95B0F;
+}
+
+/* Content for all */
+
+.content{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Content for village page */
+
+.contentvillage{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.contentvillage h2{
+  text-align: center;
+}
+
+.contentvillage p{
+  text-align: left;
+}
+
+.contentvillage img{
+  margin-right: 10px;
+}
+
+.aticourse{
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/*Content for Home page*/
+
+.contenthome{
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+table img{
+  width: 365px;
+  height: 350px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: #F95B0F;
+  color: white;
+}
+
